@@ -1,0 +1,48 @@
+:root{
+    --bg-color:#333;
+    --font-color:#fff;
+    --primary-color:white;
+    --dark-overlay: rgba(0,0,0,0.4);
+}
+
+body{
+    background-color: var(--bg-color);
+    color: var(--font-color);
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+    
+    border-bottom: var(--primary-color)3px solid;
+}
+
+#home-section{
+    background-image: url('img/imageone.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 700px;
+    background-attachment: fixed;
+}
+
+.dark-overlay{
+    background-color: var(--dark-overlay);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 700px;
+}
+
+
+.home-inner{
+    padding-top: 150px;
+}
+
+.fa{
+    
+    background-color:var(--font-color);
+    padding: 3px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
